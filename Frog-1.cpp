@@ -19,14 +19,14 @@ int minimumcost(int n,vector<int>v)
 
 int main()
 {
-	int n;
-	cin>>n;
+    int n;
+    cin>>n;
 
-	vector<int>v;
-	for(int i=0;i<n;i++)
-	{
-		cin>>v[i];
-	}
+    vector<int>v;
+    for(int i=0;i<n;i++)
+    {
+        cin>>v[i];
+    }
 
-	cout<<minimumcost(n,v);
+    cout<<minimumcost(n,v);
 }
